@@ -1,6 +1,4 @@
-package com.thanhdatpb.java.Vỉews;
-
-import java.util.Scanner;
+package com.thanhdatpb.java.Views;
 
 import java.util.Scanner;
 
