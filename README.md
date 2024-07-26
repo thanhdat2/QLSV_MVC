@@ -1,11 +1,11 @@
 SYSTEM DESGIN PROJECT
-1. Thiết kế các lớp (Class Design)
-1.1. Lớp Student
-id (String): mã sinh viên
-name (String): tên sinh viên
-classes (List<Classroom>): danh sách lớp học mà sinh viên tham gia
-1.2. Lớp Teacher
-id (String): mã giáo viên
+1. Thiết kế các lớp (Class Design)<br>
+1.1. Lớp Student<br>
+id (String): mã sinh viên<br>
+name (String): tên sinh viên<br>
+classes (List<Classroom>): danh sách lớp học mà sinh viên tham gia<br>
+1.2. Lớp Teacher<br>
+id (String): mã giáo viên<br>
 name (String): tên giáo viên
 subjects (List<Subject>): danh sách môn học mà giáo viên giảng dạy
 1.3. Lớp Subject
