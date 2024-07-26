@@ -1,22 +1,9 @@
-SYSTEM DESGIN PROJECT
+SYSTEM DESGIN PROJECT:
 1. Thiết kế các lớp (Class Design)<br>
 1.1. Lớp Student<br>
-id (String): mã sinh viên<br>
-name (String): tên sinh viên<br>
-classes (List<Classroom>): danh sách lớp học mà sinh viên tham gia<br>
 1.2. Lớp Teacher<br>
-id (String): mã giáo viên<br>
-name (String): tên giáo viên<br>
-subjects (List<Subject>): danh sách môn học mà giáo viên giảng dạy<br>
 1.3. Lớp Subject<br>
-id (String): mã môn học<br>
-name (String): tên môn học<br>
-teacher (Teacher): giáo viên dạy môn này<br>
 1.4. Lớp Classroom<br>
-id (String): mã lớp học<br>
-name (String): tên lớp học<br>
-subjects (List<Subject>): danh sách môn học của lớp<br>
-students (List<Student>): danh sách sinh viên tham gia lớp<br>
 2. Thiết kế chức năng quản lý (Management Functions)<br>
 2.1. Quản lý Student<br>
 Thêm mới sinh viên<br>
@@ -52,4 +39,4 @@ Sử dụng bộ nhớ đệm để tăng tốc độ truy xuất dữ liệu<br
 Sử dụng constants và enum để định nghĩa các giá trị cố định (như các lựa chọn trong menu)<br>
 8. Data Persistence<br>
 Đọc/ghi dữ liệu từ/to file data.dat<br>
-Sử dụng Serializable để chuyển đổi đối tượng thành byte khi lưu file<br>
+Sử dụng Serializable để chuyển đổi đối tượng thành byte khi lưu file.
