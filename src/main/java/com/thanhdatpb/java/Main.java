@@ -64,11 +64,6 @@ public class Main {
         // Lưu dữ liệu vào file
         DataHandler.writeData("data.dat", data);
 
-
-//        Student readData = (Student) DataHandler.readData("student.dat");
-//
-//        System.out.println("ID: " + readData.getId());
-//        System.out.println("Name: " + readData.getName());
     }
 }
 
